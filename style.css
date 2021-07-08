@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.containerr{
+    display: flex;
+    margin-top: 2rem;
+}
+.containerr .o_image{
+    width: 50%;
+    border-right: 1px solid;
+}
+
+.containerr .p_image{
+    width: 50%;
+    border-left: 1px solid;
+    text-align: center;
+}
+
+span{
+    display: block;
+    text-align: center;
+    background-color: blue;
+    color:white;
+    padding: 5px;
+    margin-bottom: 5px;; 
+}
+
+img{
+    border: 1px solid blue;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+
+.b_container{
+    text-align: center;
+    width: 100%;
+}
+
+.caption{
+    width: fit-content;
+}
+
+.fixed-width {
+    max-width: 480px !important;
+    max-height: 480px!important;
+    overflow-x: auto;
+  }
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .line {
+    stroke: orange;
+    stroke-width: 0.7px;
+    stroke-linecap: square;
+  }
+  
+  .handle {
+    fill: orange;
+    pointer-events: all;
+    stroke:orange;
+    stroke-width: 2px;
+    cursor: move;
+    opacity: 0.8;
+}
